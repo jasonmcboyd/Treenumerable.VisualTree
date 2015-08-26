@@ -15,10 +15,14 @@ namespace Treenumerable.VisualTree
             }
         }
 
-        public bool TryGetParent(DependencyObject node, out DependencyObject parent)
+        public IEnumerable<DependencyObject> GetAncestors(DependencyObject node)
         {
-            parent = VisualTreeHelper.GetParent(node);
-            return parent != null;
+            DependencyObject parent = VisualTreeHelper.GetParent(node);
+            while (parent != null)
+            {
+                yield return parent;
+                parent = VisualTreeHelper.GetParent(parent);
+            }
         }
     }
 }
