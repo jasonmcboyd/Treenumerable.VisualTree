@@ -10,9 +10,9 @@ using System.Windows;
 [assembly: AssemblyTitle("Treenumerable.VisualTree.Wpf")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Toshiba")]
+[assembly: AssemblyCompany("Jason Boyd")]
 [assembly: AssemblyProduct("Treenumerable.VisualTree.Wpf")]
-[assembly: AssemblyCopyright("Copyright © Toshiba 2015")]
+[assembly: AssemblyCopyright("Copyright © Jason Boyd 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
