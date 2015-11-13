@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Treenumerable.VisualTree.Silverlight</id>
+    <version>2.1.0</version>
+    <title>Treenumerable.VisualTree.Silverlight</title>
+    <authors>Jason Boyd</authors>
+    <owners>Jason Boyd</owners>
+    <licenseUrl>https://github.com/jasonmcboyd/Treenumerable.VisualTree/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/jasonmcboyd/Treenumerable.VisualTree</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Treenumerable.VisualTree.Silverlight is a general purpose library for enumerating, traversing and querying Silverlight's visual tree.</description>
+    <tags>LINQ tree enumerate traverse hierarchy Silverlight</tags>
+  </metadata>
+</package>
